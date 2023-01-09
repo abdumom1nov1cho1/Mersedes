@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background img{
+  width: 100%;
+  height: 600px;
+
+}
+/* animatsiya-start */
+.animatsiya{
+  height: max-content ;
+}
+.animatsiya h1{
+  color:black;
+  font-size: 30px;
+  transform: rotateY(-40%);
+  text-align: center;
+  width: 100%;
+}
+.animatsiya h1 span{
+  display: inline-block;
+  animation: eid 1s linear forwards;
+  opacity: 0;
+}
+
+.animatsiya h1{
+  color: black;
+}
+@keyframes eid{
+  0%{
+      transform: rotateY(90deg);
+      filter: blur(10px);
+      opacity: 0;
+  }
+  100%{
+      transform: rotateY(0deg);
+      filter: blur(0deg);
+      opacity: 1;
+  }
+}
+.animatsiya h1 span:nth-child(1){
+  animation-delay: 1s;
+}
+.animatsiya h1 span:nth-child(2){
+  animation-delay: 1.5s;
+}
+.animatsiya h1 span:nth-child(3){
+  animation-delay: 2s;
+}
+.animatsiya h1 span:nth-child(4){
+  animation-delay: 2.5s;
+}
+.animatsiya h1 span:nth-child(5){
+  animation-delay: 3s;
+}
+.animatsiya h1 span:nth-child(6){
+  animation-delay: 3.5s;
+}
+.animatsiya h1 span:nth-child(7){
+  animation-delay: 4s;
+}
+.animatsiya h1 span:nth-child(8){
+  animation-delay: 4.5s;
+}
+.animatsiya h1 span:nth-child(9){
+  animation-delay: 5s;
+}
+.animatsiya h1 span:nth-child(10){
+  animation-delay: 5.5s;
+}
+.animatsiya h1 span:nth-child(11){
+  animation-delay: 6s;
+}
+.animatsiya h1 span:nth-child(12){
+  animation-delay: 6.5s;
+}
+.animatsiya h1 span:nth-child(13){
+  animation-delay: 7s;
+}
+/* animatsiya-finish */
+.container{
+    width: 90%;
+}
+.ota2 h1{
+  color:  rgb(0, 0, 0);
+  margin-top: 30px;
+  text-align: center;
+  font-size: 90px;
+}
+
+.hh {
+  font-size:90px ;
+  margin-top: 30px;
+}
+.card2 a{
+  text-decoration: none;
+}
+.navbar-brand img {
+  height: 100px;
+  
+}
+.navbar-brand h1 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+.navbar {
+  background: black;
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+.navbar{
+    left: 0;
+    right: 0;
+    top:0; 
+    position: sticky;
+}
+
+.header__card{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__card__1{
+  margin-bottom: 150px;
+  width: 300px;
+  height: 100px;
+}
+.header__card a img {
+  width: 100%;
+}
+
+.card h5{
+  font-size: 20px;
+}
+.yozuv{
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 29px;
+}
+.yozuv h3{
+  color: rgb(0, 255, 247);
+  font-size: 40px;
+}
+
+footer{
+  width: 100%;
+  background: rgb(26, 26, 26);
+  min-height: 100px;
+  padding: 20px 50px;
+  flex-direction: column;
+  text-align: center;
+}
+footer img{
+  border-radius: 15px;
+  background: rgb(104, 19, 195);
+  width: 25px;
+  height: 25px;
+}
+footer .social-icon,
+footer .menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+
+}
+footer .social-icon li,
+footer .menu li{
+  list-style: none;
+}
+footer .social-icon li a{
+  font-size: 2em;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+footer .social-icon li a:hover{
+  transform: translateY(-10px);
+}
+footer .menu li a{
+  font-size: 1.2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+
+}
+footer .menu li a:hover{
+  opacity: 1;
+  color:rgb(53, 53, 53)  ;
+}
+.account p{
+    font-size: 2 0px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.account p:hover{
+  font-size: 2 0px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.account a{
+  text-decoration: none;
+  font-size: 2 0px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.account img{
+  width: 35px;
+  height: 35px;
+}
+.FGG{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  background: url(/images/SlimyTameArawana-size_restricted.gif) no-repeat center center/cover;
+}
+.card{
+  margin-top: 70px;
+}
+.section__card1 img{
+  margin-top: 30px;
+}
+.card .mmm{
+  color: #fff;
+  background: rgb(103, 103, 103);
+}
+@media all and (max-width: 1216px){
+  .animatsiya h1{
+    font-size: 55px;
+  }
+  .card2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media all and (max-width: 952px){
+  .animatsiya h1{
+    font-size: 40px;
+  }
+  .card2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media all and (max-width: 775px){
+  .card2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+@media all and (max-width: 552px){
+  .animatsiya h1{
+    font-size: 30px;
+  }
+}
